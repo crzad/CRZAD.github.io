@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zhengshi</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+        background-image: url(https://s21.ax1x.com/2024/11/30/pA5OCMn.jpg);
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 1/1;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      /* .* {
+        border: 1px solid black;
+      } */
+      .flex {
+        display: flex;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .glass {
+        border-radius: 8px;
+        background-color: rgb(255, 255, 255, 0.1);
+        border: 1.5px solid rgb(173 173 173 / 50%);
+        border-bottom: 1.5px solid rgb(255, 255, 255, 7);
+        backdrop-filter: blur(5px);
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .yingying {
+        box-shadow: rgb(0 0 0/ 20%) 0px 2px 1px -1px,
+          rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px;
+      }
+      .mg8 {
+        margin: 8px;
+      }
+      .mgt8 {
+        margin-top: 8px;
+      }
+      .mgr8 {
+        margin-right: 8px;
+      }
+      .footer {
+        margin-bottom: 0px;
+        height: 100px;
+        z-index: 9999;
+      }
+      .touming {
+        background-color: rgba(220, 38, 38, 0.2);
+        background: #43bff5;
+        opacity: 0;
+        background: transparent;
+      }
+      .row {
+        flex-direction: row;
+      }
+      .dingbu {
+        margin-left: 30px;
+        margin-top: 15px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        letter-spacing: 3px;
+        color: #5dc8ff;
+        align-items: center;
+      }
+      .dibu {
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .tupian {
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* aspect-ratio: 1/1; */
+      }
+      div img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;}
+    </style>
+  </head>
+  <body class="flex">
+    <!--全部区域-->
+    <div style="overflow: auto" class="flex1 flex column">
+      <!--顶部-->
+      <div
+        style="height: 50px; z-index: 1; background-color: #a8e0f9"
+        class="flex row"
+      >
+        <!--LOGO-->
+        <div class="dingbu">YinWuLan</div>
+      </div>
+      <!--上面-->
+      <div
+        style="overflow: auto; margin-left: 20px; margin-right: 20px"
+        class="flex"
+      >
+        <!--左边-->
+        <div
+          style="width: 725px; height: 320px; margin-top: 8px"
+          class="flex column"
+        >
+          <div
+            style="width: 725px; height: 250px"
+            class="flex glass yingying tupian"
+          ><img src="tupian/huanyinjiemian.jpg"></div>
+          <div
+            style="
+              width: 730px;
+              height: 70px;
+              margin-top: 8px;
+              margin-right: 0px;
+              flex-direction: row;
+              justify-content: space-around;
+            "
+            class="flex "
+          >
+            <div
+              style="
+                width: 170px;
+                height: 70px;
+                margin-top: 0px;
+                margin-right: 0px;
+                flex-direction: row;
+                justify-content: space-around;
+              "
+              class="flex glass yingying "
+            >
+            <a href="tupian/boqi2.jpg">
+              <img src="tupian/boqi2.jpg">
+              </a>
+            </div>
+            <div
+              style="
+                width: 170px;
+                height: 70px;
+                margin-top: 0px;
+                margin-right: 0px;
+                flex-direction: row;
+                justify-content: space-around;
+              "
+              class="flex glass yingying "
+            ><a href="fenlei.html"> 
+            <img src="tupian/xiduo2.jpg">
+          </a></div>
+            <div
+              style="
+                width: 170px;
+                height: 70px;
+                margin-top: 0px;
+                margin-right: 0px;
+                flex-direction: row;
+                justify-content: space-around;
+              "
+              class="flex glass yingying"
+            ><a href="fenlei.html"> 
+            <img src="tupian/hongxia2.jpg">
+          </a></div>
+          <div
+              style="
+                width: 170px;
+                height: 70px;
+                margin-top: 0px;
+                margin-right: 0px;
+                flex-direction: row;
+                justify-content: space-around;
+              "
+              class="flex glass yingying "
+            >
+            <a href="tupian/boqi2.jpg">
+              <img src="tupian/liang.jpg">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--右边-->
+        <div
+          style="width: 725px; height: 330px; margin-bottom: 20px;"
+          class="flex  mg8 yingying glass tupian "
+        ><img src="tupian/现视研.png"></div>
+      </div>
+      <!--下面-->
+
+      <div
+        style="
+          flex: 1;
+          overflow: auto;
+          flex-direction: row;
+          margin-left: 20px;
+          margin-right: 20px;
+        "
+        class="flex column"
+      >
+        <!--下左边-->
+        <div style="flex: 3" class="flex column mgr8"></div>
+        <!--下右边-->
+        <div style="flex: 1" class="flex column">
+          <!--提示-->
+          <div style="height: 150px" class="white yinying glass"></div>
+          <!--每日-->
+          <div style="height: 300px" class="white yinying glass"></div>
+        </div>
+      </div>
+      <!--底部-->
+      <div style="backdrop-filter: blur(50px)" class="footer">
+        <div style="margin-top: 2px" class="dibu">
+          “即使感到幸福,但是这幸福的顶点很快就会过去
+        </div>
+        <div class="dibu">我只是不想重复体验这样的高低起伏.....” by 中原岬</div>
+        <div style="margin-top: 40px" class="dibu">© powered by 音无藍</div>
+      </div>
+    </div>
+  </body>
+</html>
